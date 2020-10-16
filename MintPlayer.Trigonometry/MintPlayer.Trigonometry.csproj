@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Pieterjan De Clippel</Authors>
+    <Company>MintPlayer</Company>
+    <Description>Missing trigonometry functions in the System.Math class</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/MintPlayer/MintPlayer.Trigonometry</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/MintPlayer/MintPlayer.Trigonometry</PackageProjectUrl>
+    <RootNamespace>System.Trigonometry</RootNamespace>
   </PropertyGroup>
 
 </Project>

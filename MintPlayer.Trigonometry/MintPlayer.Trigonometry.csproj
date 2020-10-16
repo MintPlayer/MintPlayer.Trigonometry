@@ -11,6 +11,8 @@
     <Copyright></Copyright>
     <PackageProjectUrl>https://github.com/MintPlayer/MintPlayer.Trigonometry</PackageProjectUrl>
     <RootNamespace>System.Trigonometry</RootNamespace>
+    <PackageTags>Asinh, Acosh, Atanh, Acosech, asech, acotanh</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
 </Project>

@@ -1,5 +1,6 @@
 ﻿namespace System.Trigonometry
 {
+    /// <summary>This class contains the missing trigonometry methods.</summary>
     public static class Math
     {
         /// <summary>Returns the cosecant of the specified angle.</summary>

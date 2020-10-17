@@ -5,6 +5,7 @@
     <Authors>Pieterjan De Clippel</Authors>
     <Company>MintPlayer</Company>
     <Description>Missing trigonometry functions in the System.Math class</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/MintPlayer/MintPlayer.Trigonometry</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
@@ -12,7 +13,7 @@
     <PackageProjectUrl>https://github.com/MintPlayer/MintPlayer.Trigonometry</PackageProjectUrl>
     <RootNamespace>System.Trigonometry</RootNamespace>
     <PackageTags>Asinh, Acosh, Atanh, Acosech, asech, acotanh</PackageTags>
-    <Version>1.0.3</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
 </Project>

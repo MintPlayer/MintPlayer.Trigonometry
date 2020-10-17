@@ -26,23 +26,44 @@
 
         /// <summary>Returns the hyperbolic cosecant of the specified angle.</summary>
         /// <param name="d">An angle, measured in radians.</param>
-        public static double Cosech(double d)
+        public static double CosecH(double d)
         {
             return 1 / System.Math.Sinh(d);
         }
 
         /// <summary>Returns the hyperbolic secant of the specified angle.</summary>
         /// <param name="d">An angle, measured in radians.</param>
-        public static double Sech(double d)
+        public static double SecH(double d)
         {
             return 1 / System.Math.Cosh(d);
         }
 
         /// <summary>Returns the hyperbolic cotangent of the specified angle.</summary>
         /// <param name="d">An angle, measured in radians.</param>
-        public static double Cotanh(double d)
+        public static double CotanH(double d)
         {
             return 1 / System.Math.Tanh(d);
+        }
+
+        /// <summary>Returns the angle whose cosecant is the specified number.</summary>
+        /// <param name="d">A number representing a cosecant.</param>
+        public static double Acosec(double d)
+        {
+            return System.Math.Asin(1 / d);
+        }
+
+        /// <summary>Returns the angle whose secant is the specified number.</summary>
+        /// <param name="d">A number representing a secant.</param>
+        public static double Asec(double d)
+        {
+            return System.Math.Acos(1 / d);
+        }
+
+        /// <summary>Returns the angle whose cotangent is the specified number.</summary>
+        /// <param name="d">A number representing a cotangent.</param>
+        public static double Acotan(double d)
+        {
+            return System.Math.Atan(1 / d);
         }
 
         /// <summary>Returns the angle whose hyperbolic sine is the specified number.</summary>
